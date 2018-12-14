@@ -3,76 +3,96 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Jennifer's Portfolio - Home</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Arvo');
-  </style>
 </head>
 
 <body>
 
   <!--Site Header: Top Menu-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <span class="navbar-text">
-      <div>
-        <h1>Jennifer Gingras</h1>
-      </div>
-    </span>
-    <div class="collapse navbar-collapse justify-content-center">
-      <a class="nav-link" href="#">About</a> |
-      <a class="nav-link" href="#">Portfolio</a> |
-      <a class="nav-link" href="#">Contact</a>
+    <a class="navbar-brand" href="#">Jennifer Gingras</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
 
 
   <!--About me container-->
-  <div class="container myThing">
+  <div class="container mybox">
     <div class="row">
-      <div class="col-md-12">
-      <!--About me heading-->
-      <h3>About Me</h3>
-      <hr />
-    </div>
-    <!--Row 2, still in container-->
-    <div class="row">
-      <!-- About me photo in row 2-->
-      <div class="col-md-3 headshot">
-        <img src="assets/images/wyzant pic.jpg" alt="A picture of Jennifer">
+      <div class="col-md">
+        <!--About me heading-->
+        <h3>About Me</h3>
+        <hr>
       </div>
-      <!--About me text (bio) in row 2-->
-      <div class="col-md-9">
-        <p>
-          I am an artist, a writer, a designer, and a soon to be coder. I see all four practices as related.
-          I enjoy the creativity they encourage and the challenges they provide. Whether it's with ink, or words, or
-          code,
-          I'm using my mind and my hands to create and to build something, and that I is what I love to do most.
-          I am most drawn to projects that work to create positive social and/or environmental impact. I have worked
-          for a company
-          in the holistic medicine industry and am currently designing for a start-up which promotes cultural
-          exchange.
-        </p>
-        <p>
-          Other interesting things about me include my identical twin sister for whom I plan to create a portfolio
-          website if she
-          illustrates my as yet unpublished (must finish them first) novels, my extensive collection of travel
-          anecdotes,
-          and my penchant for volunteering for non-profits. I also like buying too many books and hanging out with
-          cats.
-        </p>
+      <!--Row 2, still in container-->
+      <div class="row">
+        <!-- About me photo in row 2-->
+
+        <div class="col-xs-12 col-sm-6 col-md-4 headshot">
+          <img src="assets/images/wyzant pic.jpg" alt="A picture of Jennifer">
+        </div>
+        <!--About me text (bio) in row 2-->
+        <div class="col-xs-2 col-sm-6 col-md-8">
+          <p>
+            I am an artist, a writer, a designer, and a soon to be coder. I see all four practices as related.
+            I enjoy the creativity they encourage and the challenges they provide. Whether it's with ink, or words,
+            or
+            code,
+            I'm using my mind and my hands to create and to build something, and that I is what I love to do most.
+            I am most drawn to projects that work to create positive social and/or environmental impact. I have
+            worked
+            for a company
+            in the holistic medicine industry and am currently designing for a start-up which promotes cultural
+            exchange.
+          </p>
+          <p>
+            Other interesting things about me include my identical twin sister for whom I plan to create a portfolio
+            website if she
+            illustrates my as yet unpublished (must finish them first) novels, my extensive collection of travel
+            anecdotes,
+            and my penchant for volunteering for non-profits. I also like buying too many books and hanging out with
+            cats.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 
   <footer>
     Jennifer Gingras ©
   </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 
 </body>
 
