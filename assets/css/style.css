@@ -4,31 +4,53 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-h1 {
+header {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+/* a container to stick the navbar in so that the content fits within the grid and doesn't hug the edges of the screen */
+.navbox {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.navbar,
+.navbar-light,
+.bg-light,
+.navbar-text {
+  padding: 0;
+}
+
+.navbar-text {
   padding: 1rem;
   background: #4aaaa5;
-  font-family: 'Arvo', serif;
-  font-size: 1.5rem;
   text-align: center;
+}
+
+h2 {
   color: #ffffff;
+  font-size: 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-nav a:link {
+/* could not figure out how to make the links change state using the bootstrap nav menu 
+.navbar-nav a:link {
   color: #666666
 }
 
-nav a:visited {
+.navbar-nav a:visited {
   color: #666666
 }
 
-nav a:hover {
+.navbar-nav a:hover {
   color: #4aaaa5
 }
 
-nav a:active {
+.navbar-nav a:active {
   color: #dddddd
 }
+*/
 
 /* my own container class with custom specifications */
 .mybox {
@@ -41,7 +63,7 @@ nav a:active {
 /* Page Headers */
 h3 {
   color: #4aaaa5;
-  font-family: 'Arvo', serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
